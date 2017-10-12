@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "146g"; ObjectID = "9Bm-Pe-nuN"; */
+"9Bm-Pe-nuN.text" = "146g";
+
+/* Class = "UILabel"; text = "146000g"; ObjectID = "CyK-QM-fG8"; */
+"CyK-QM-fG8.text" = "146000g";
+
+/* Class = "UILabel"; text = "水"; ObjectID = "E6T-9x-WrL"; */
+"E6T-9x-WrL.text" = "Water";
+
+/* Class = "UIButton"; highlightedTitle = "种树"; ObjectID = "MZ5-pf-COk"; */
+"MZ5-pf-COk.highlightedTitle" = "Plant";
+
+/* Class = "UIButton"; normalTitle = "种树"; ObjectID = "MZ5-pf-COk"; */
+"MZ5-pf-COk.normalTitle" = "Plant";
+
+/* Class = "UILabel"; text = "×3"; ObjectID = "OQv-HO-yvV"; */
+"OQv-HO-yvV.text" = "×3";
+
+/* Class = "UILabel"; text = "肥料"; ObjectID = "XP2-wY-hoN"; */
+"XP2-wY-hoN.text" = "Manure";

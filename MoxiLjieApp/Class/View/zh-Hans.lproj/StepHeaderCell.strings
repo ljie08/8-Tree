@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; disabledTitle = "领取水"; ObjectID = "VuH-k3-wA6"; */
+"VuH-k3-wA6.disabledTitle" = "领取水";
+
+/* Class = "UIButton"; highlightedTitle = "领取水"; ObjectID = "VuH-k3-wA6"; */
+"VuH-k3-wA6.highlightedTitle" = "领取水";
+
+/* Class = "UIButton"; normalTitle = "领取水"; ObjectID = "VuH-k3-wA6"; */
+"VuH-k3-wA6.normalTitle" = "领取水";
+
+/* Class = "UIButton"; disabledTitle = "领取肥料"; ObjectID = "WDQ-Um-jl7"; */
+"WDQ-Um-jl7.disabledTitle" = "领取肥料";
+
+/* Class = "UIButton"; highlightedTitle = "领取肥料"; ObjectID = "WDQ-Um-jl7"; */
+"WDQ-Um-jl7.highlightedTitle" = "领取肥料";
+
+/* Class = "UIButton"; normalTitle = "领取肥料"; ObjectID = "WDQ-Um-jl7"; */
+"WDQ-Um-jl7.normalTitle" = "领取肥料";
+
+/* Class = "UIButton"; normalTitle = "更新步数"; ObjectID = "YRG-YU-Bdw"; */
+"YRG-YU-Bdw.normalTitle" = "更新步数";
+
+/* Class = "UILabel"; text = "今天已走5289步"; ObjectID = "kY5-rE-yFh"; */
+"kY5-rE-yFh.text" = "今天已走5289步";

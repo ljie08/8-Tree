@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  MoxiLjieApp
+
+  Created by ljie on 2017/9/11.
+  Copyright © 2017年 AppleFish. All rights reserved.
+*/
+"delete"="删除";
+"cityName"="请选择城市";
+"forecast7d"="| 详细预报 |";
+"weatherIndex"="| 天气指数 |";
+"nodata"="暂无数据";
+"now"="现在";
+"today"="今天";
+"fengxiang"="风向";
+"fengli"="风力";
+"shidu"="湿度";
+"vis"="能见度";
+"fl"="感冒指数";
+"pcpn"="降水量";
+"pres"="大气压";
+
+"drsg"="穿衣指数";
+"air"="空气质量";
+"sport"="运动指数";
+"uv"="紫外线";
+"trav"="旅游指数";
+"cw"="洗车指数";
+"comf"="舒适度";
+"flu"="感冒指数";
+
+"reset"="重新定位";

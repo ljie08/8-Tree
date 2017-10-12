@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LeftView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbi-1T-GUr">
+                    <rect key="frame" x="93.5" y="0.0" width="281.5" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPo-k2-2c7">
+                            <rect key="frame" x="20" y="30" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="Gla-tx-M77"/>
+                                <constraint firstAttribute="width" constant="22" id="KzP-fG-A53"/>
+                            </constraints>
+                            <state key="normal" image="addgray"/>
+                            <connections>
+                                <action selector="addCity:" destination="iN0-l3-epB" eventType="touchUpInside" id="mPG-cz-2fh"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMx-3i-ity">
+                            <rect key="frame" x="197" y="30" width="69.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r60-rt-hoN">
+                            <rect key="frame" x="0.0" y="64" width="281.5" height="603"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="separatorColor" red="0.28314423560000002" green="0.59184741969999999" blue="0.32553511860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="KzI-iF-bFC"/>
+                                <outlet property="delegate" destination="-1" id="xi7-jn-85h"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="XMx-3i-ity" firstAttribute="centerY" secondItem="bPo-k2-2c7" secondAttribute="centerY" id="2vK-rl-nde"/>
+                        <constraint firstItem="r60-rt-hoN" firstAttribute="leading" secondItem="dbi-1T-GUr" secondAttribute="leading" id="FST-Ux-tgS"/>
+                        <constraint firstItem="r60-rt-hoN" firstAttribute="top" secondItem="dbi-1T-GUr" secondAttribute="top" constant="64" id="a0p-Ws-YQ5"/>
+                        <constraint firstAttribute="bottom" secondItem="r60-rt-hoN" secondAttribute="bottom" id="caU-hL-hVG"/>
+                        <constraint firstAttribute="trailing" secondItem="r60-rt-hoN" secondAttribute="trailing" id="egd-D8-RAW"/>
+                        <constraint firstItem="bPo-k2-2c7" firstAttribute="top" secondItem="dbi-1T-GUr" secondAttribute="top" constant="30" id="kQT-zw-MhL"/>
+                        <constraint firstAttribute="trailing" secondItem="XMx-3i-ity" secondAttribute="trailing" constant="15" id="mH1-ad-43o"/>
+                        <constraint firstItem="bPo-k2-2c7" firstAttribute="leading" secondItem="dbi-1T-GUr" secondAttribute="leading" constant="20" id="sTG-bx-rAb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="va7-uJ-Nqn">
+                    <rect key="frame" x="0.0" y="0.0" width="93.5" height="667"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dbi-1T-GUr" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="3:4" id="A4L-zd-Tn5"/>
+                <constraint firstAttribute="trailing" secondItem="dbi-1T-GUr" secondAttribute="trailing" id="Ab5-gx-72h"/>
+                <constraint firstItem="va7-uJ-Nqn" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:4" id="IeJ-Wz-HCc"/>
+                <constraint firstItem="dbi-1T-GUr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JXP-nV-klk"/>
+                <constraint firstItem="va7-uJ-Nqn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SsA-DC-4xj"/>
+                <constraint firstAttribute="bottom" secondItem="va7-uJ-Nqn" secondAttribute="bottom" id="fZy-sI-Xbe"/>
+                <constraint firstItem="dbi-1T-GUr" firstAttribute="leading" secondItem="va7-uJ-Nqn" secondAttribute="trailing" id="jNp-dj-Bhh"/>
+                <constraint firstAttribute="bottom" secondItem="dbi-1T-GUr" secondAttribute="bottom" id="ovt-LW-cmq"/>
+                <constraint firstItem="va7-uJ-Nqn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zmj-wf-Nea"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alphaView" destination="va7-uJ-Nqn" id="gQv-6t-6NO"/>
+                <outlet property="leftBgView" destination="dbi-1T-GUr" id="DHz-75-0ji"/>
+                <outlet property="leftTable" destination="r60-rt-hoN" id="QbX-AK-pux"/>
+            </connections>
+            <point key="canvasLocation" x="119.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addgray" width="20" height="20"/>
+    </resources>
+</document>

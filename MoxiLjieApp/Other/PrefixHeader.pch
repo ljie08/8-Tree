@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  MyLottery
+//
+//  Created by ljie on 2017/8/4.
+//  Copyright © 2017年 AppleFish. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "LJUtil.h"
+#import "JDModelHeader.h"
+#import "WebManager.h"
+#import "UrlDefine.h"
+//#import ""
+#import "MJExtension.h"
+#import "Header.h"
+#import <Masonry.h>
+#import "Normal.h"
+#import "Tree.h"
+
+
+//#import "UrlDefine.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

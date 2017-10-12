@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  MoxiLjieApp
+
+  Created by ljie on 2017/9/11.
+  Copyright © 2017年 AppleFish. All rights reserved.
+*/
+"步"="Step";
+"昨天"="Yesterday";
+"今天"="Today";
+"您已成功领取水"="Get Water Successed";
+"您已成功领取肥料"="Get Manure Successed";
+"确定"="sure";
+"取消"="cancel";
+"确定要领么"="Are you sure ?";
+"没有足够的步数可兑换,尝试走路或更新步数吧"="No Steps,Try To Walking Or Update Steps";
+"近一周行走记录"="Walking Record";
+"今日已走"="Has Walking";
+"更新成功"="Update Success";
+"水和肥料还不够呢~"="Not Enough Water Or Manure";
+"水"="Water";
+"肥料"="Manure";
+"小树已经长大了~"="Tree Has Grown up";
+"恭喜你，又多了一棵小树"="Congratulations, you have a new tree";
+"森林"="Forest";
+"已长成的树"="Trees Grown up";
+"还没有长大的树"="No Big Tree";
+"你还没有养成的大树，快去走路获取水和肥料来养棵树吧~"="There is no big tree，go to walking for water and manure~";
+"更新步数"="Update Steps";
+"领了水就不能领取肥料了"="if you get water then you can't get manure";
+"领了肥料就不能领取水了"="If you get manure then you can't get water";
+
+
+"查看天气"="look weather";
+
+"delete"="delete";
+"cityName"="please choose a city";
+"forecast7d"="| Forecast Detail |";
+"weatherIndex"="| Weather Index |";
+"nodata"="No Data";
+"now"="Now";
+"today"="Today";
+
+"fengxiang"="WDir";
+"fengli"="WGra";
+"shidu"="Hum";
+"vis"="vis";
+"fl"="fl";
+"pcpn"="pcpn";
+"pres"="pres";
+
+"drsg"="Wear";
+"air"="Air";
+"sport"="Sport";
+"uv"="UV";
+"trav"="Travle";
+"cw"="Clear Car";
+"comf"="Comfort";
+"flu"="Flu";
+
+"reset"="Reset";
